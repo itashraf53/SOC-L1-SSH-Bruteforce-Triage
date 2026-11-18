@@ -68,7 +68,7 @@ Open folder SOC_Screenshot to see Data Ingestion Screenshot.
 (test_user) whose only crime was typing their password wrong four times. 
 That is a *false positive* and a classic source of alert fatigue.
 
-Open folder SOC_Screenshot to see Naive Alert Screenshot.
+Open folder SOC-Screenshots to see Naive Alert Screenshot.
 
 ---
 
@@ -84,7 +84,7 @@ suspicious IP.
 *Key rule:* failed attempts alone = attempted attack.  
 *Failures followed by a success = confirmed compromise.*
 
-Open folder SOC_Screenshot to see True Positive Correlatio.
+Open folder SOC-Screenshots to see True Positive Correlatio.
 
 ---
 
@@ -98,7 +98,7 @@ Built a single SPL query that classifies *every* IP automatically:
 | *ATTEMPTED* | 5+ failures, no success |
 | *BENIGN* | Below threshold |
 
-Open folder SOC_Screenshot to see Automated Triage Matrix Screenshot.
+Open folder SOC-Screenshots to see Automated Triage Matrix Screenshot.
 
 ---
 
@@ -111,7 +111,7 @@ Tuned the rule from count > 3 (no window) to:
 
 *Result:* false positive eliminated, both real attackers retained.
 
-Open folder SOC_Screenshot to see Detection Tuning Screenshot.
+Open folder SOC-Screenshots to see Detection Tuning Screenshot.
 
 ---
 
@@ -120,7 +120,7 @@ Open folder SOC_Screenshot to see Detection Tuning Screenshot.
 Saved the tuned rule as an *hourly scheduled alert* and built a two-panel 
 triage dashboard for shift handover.
 
-Open folder SOC_Screenshot to seeAlert & DashboardScreenshot.
+Open folder SOC-Screenshots to seeAlert & DashboardScreenshot.
 
 ---
 
