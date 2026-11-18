@@ -1,1 +1,18 @@
+# SSH Brute Force Detection — Tuned Version
+# Detects 5+ failed password attempts within a 10-minute window
+# and auto-labels whether the attacker succeeded (COMPROMISED vs ATTEMPTED)
+#
+# MITRE: T1110.001 (Brute Force: Password Guessing) + T1078 (Valid Accounts)
+#
+# Tuning notes:
+# - Original naive rule: count > 3 failed passwords (no time window) → flagged benign users
+# - Tuned rule: 5 failures within 10 minutes + success correlation → false positives eliminated
 
+index=soc_lab sourcetype=ssh_logs_csv
+| bin _time span=10m
+| eval is_fail=if(action="Failed password", 1, 0)
+| eval is_success=if(action="Accepted password", 1, 0)
+| stats sum(is_fail) as failures, sum(is_success) as successes by _time, src_ip, user
+| where failures >= 5
+| eval compromised=if(successes > 0, "YES", "NO")
+| table _time, src_ip, user, failures, compromised
