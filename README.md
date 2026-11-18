@@ -209,4 +209,4 @@ screenshots/  → evidence screenshots of every investigation phase
 
 ---
 
-Personal SOC L1 portfolio All data is synthetic and for educational use.
+Personal SOC L1 portfolio || All data is synthetic and for educational use.
