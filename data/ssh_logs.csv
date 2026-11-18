@@ -1,1 +1,24 @@
-
+{"_time":"2024-03-15T08:00:12Z","src_ip":"10.0.0.5","user":"admin","action":"Accepted password","server":"web-prod-01","port":22}
+{"_time":"2024-03-15T09:01:05Z","src_ip":"10.0.0.42","user":"test_user","action":"Failed password","server":"web-prod-01","port":22}
+{"_time":"2024-03-15T09:01:22Z","src_ip":"10.0.0.42","user":"test_user","action":"Failed password","server":"web-prod-01","port":22}
+{"_time":"2024-03-15T09:02:10Z","src_ip":"10.0.0.42","user":"test_user","action":"Failed password","server":"web-prod-01","port":22}
+{"_time":"2024-03-15T09:03:45Z","src_ip":"10.0.0.42","user":"test_user","action":"Failed password","server":"web-prod-01","port":22}
+{"_time":"2024-03-15T09:04:30Z","src_ip":"10.0.0.42","user":"test_user","action":"Accepted password","server":"web-prod-01","port":22}
+{"_time":"2024-03-15T10:15:00Z","src_ip":"10.0.0.77","user":"jdoe","action":"Failed password","server":"web-prod-02","port":22}
+{"_time":"2024-03-15T10:15:20Z","src_ip":"10.0.0.77","user":"jdoe","action":"Failed password","server":"web-prod-02","port":22}
+{"_time":"2024-03-15T10:15:55Z","src_ip":"10.0.0.77","user":"jdoe","action":"Accepted password","server":"web-prod-02","port":22}
+{"_time":"2024-03-15T11:22:01Z","src_ip":"203.0.113.50","user":"root","action":"Failed password","server":"db-prod-01","port":22}
+{"_time":"2024-03-15T11:22:08Z","src_ip":"203.0.113.50","user":"root","action":"Failed password","server":"db-prod-01","port":22}
+{"_time":"2024-03-15T11:22:15Z","src_ip":"203.0.113.50","user":"root","action":"Failed password","server":"db-prod-01","port":22}
+{"_time":"2024-03-15T11:22:21Z","src_ip":"203.0.113.50","user":"root","action":"Failed password","server":"db-prod-01","port":22}
+{"_time":"2024-03-15T11:22:28Z","src_ip":"203.0.113.50","user":"root","action":"Failed password","server":"db-prod-01","port":22}
+{"_time":"2024-03-15T11:22:35Z","src_ip":"203.0.113.50","user":"root","action":"Failed password","server":"db-prod-01","port":22}
+{"_time":"2024-03-15T11:22:41Z","src_ip":"203.0.113.50","user":"root","action":"Failed password","server":"db-prod-01","port":22}
+{"_time":"2024-03-15T11:23:02Z","src_ip":"203.0.113.50","user":"root","action":"Accepted password","server":"db-prod-01","port":22}
+{"_time":"2024-03-15T14:30:00Z","src_ip":"10.0.0.5","user":"admin","action":"Accepted password","server":"db-prod-01","port":22}
+{"_time":"2024-03-15T17:00:01Z","src_ip":"198.51.100.22","user":"oracle","action":"Failed password","server":"app-prod-01","port":22}
+{"_time":"2024-03-15T17:00:30Z","src_ip":"198.51.100.22","user":"oracle","action":"Failed password","server":"app-prod-01","port":22}
+{"_time":"2024-03-15T17:01:00Z","src_ip":"198.51.100.22","user":"oracle","action":"Failed password","server":"app-prod-01","port":22}
+{"_time":"2024-03-15T17:01:30Z","src_ip":"198.51.100.22","user":"oracle","action":"Failed password","server":"app-prod-01","port":22}
+{"_time":"2024-03-15T17:02:00Z","src_ip":"198.51.100.22","user":"oracle","action":"Failed password","server":"app-prod-01","port":22}
+{"_time":"2024-03-15T17:02:30Z","src_ip":"198.51.100.22","user":"oracle","action":"Failed password","server":"app-prod-01","port":22}
